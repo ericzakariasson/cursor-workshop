@@ -24,3 +24,15 @@ To demonstrate, we'll be building a simple web app using
 5. Start the Next.js app with `pnpm dev`
 
 Now, we're ready to start prompting our app.
+
+## Other tools
+
+- [warp.dev terminal](https://www.warp.dev/): terminal with built in completion capabilities
+- [LLM cli](https://llm.datasette.io/en/stable/): cli tool to call LLMs directly in the terminal
+  - Can be used together with [this snippet](https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285) to automatically generate commit messages
+- [Ollama](https://ollama.com/): run LLMs locally (cli)
+- [LM Studio](https://lmstudio.ai/): run and visualise LLMs locally (gui)
+
+## Stay updated
+
+I share learnings from the field, tips and tricks on [anyblockers.com](https://anyblockers.com/)
