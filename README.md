@@ -32,6 +32,7 @@ Now, we're ready to start prompting our app.
   - Can be used together with [this snippet](https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285) to automatically generate commit messages
 - [Ollama](https://ollama.com/): run LLMs locally (cli)
 - [LM Studio](https://lmstudio.ai/): run and visualise LLMs locally (gui)
+- [Ellipsis](https://www.ellipsis.dev/): automated code review in GitHub PRs
 
 ## Stay updated
 
