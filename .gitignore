@@ -47,3 +47,4 @@ ipython_config.py
 *.nbconvert.ipynb
 
 .venv/
+.env

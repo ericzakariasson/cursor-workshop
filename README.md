@@ -33,6 +33,8 @@ Now, we're ready to start prompting our app.
 - [Ollama](https://ollama.com/): run LLMs locally (cli)
 - [LM Studio](https://lmstudio.ai/): run and visualise LLMs locally (gui)
 - [Ellipsis](https://www.ellipsis.dev/): automated code review in GitHub PRs
+- [Cursor Directory](https://cursor.directory/): a collection of prompts and .cursorrules files
+- [Cursor Lens](https://www.cursorlens.com/): Cursor analytics
 
 ## Stay updated
 
