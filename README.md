@@ -39,3 +39,11 @@ Now, we're ready to start prompting our app.
 ## Stay updated
 
 I share learnings from the field, tips and tricks on [anyblockers.com](https://anyblockers.com/)
+
+## Want to work together?
+
+If you're looking to improve your products, automate processes, or implement AI solutions, let's talk.
+
+- [Website](https://anyblockers.com/consulting)
+- [LinkedIn](https://www.linkedin.com/in/ericzakariasson/)
+- [Twitter/X](https://twitter.com/ericzakariasson)
