@@ -7,11 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db:up": "docker compose up -d",
-    "db:reset": "docker compose down -v && docker compose up -d",
-    "db:ping": "docker exec -i cursor-workshop-pg pg_isready -U postgres -d postgres && echo '✅ Database is up and running' || echo '❌ Database is not ready'",
+    "setup": "cp .env.example .env",
+    "pg:up": "docker compose up -d cursor-workshop-pg",
+    "pg:down": "docker compose down cursor-workshop-pg -v",
+    "pg:reset": "npm run pg:down && npm run pg:up",
+    "pg:ping": "docker exec -i cursor-workshop-pg pg_isready -U postgres -d postgres && echo '✅ PostgreSQL is up and running' || echo '❌ PostgreSQL is not ready'",
     "psql": "docker exec -it cursor-workshop-pg psql -U postgres -d postgres",
-    "db:tables": "docker exec -i cursor-workshop-pg psql -U postgres -d postgres < ./sql/tables.sql"
+    "pg:tables": "docker exec -i cursor-workshop-pg psql -U postgres -d postgres < ./sql/tables.sql",
+    "mongo:up": "docker compose up -d cursor-workshop-mongodb",
+    "mongo:down": "docker compose down cursor-workshop-mongodb -v",
+    "mongo:reset": "npm run mongo:down && npm run mongo:up",
+    "mongo:ping": "docker exec cursor-workshop-mongodb mongosh --eval 'db.runCommand({ ping: 1 })' && echo '✅ MongoDB is up and running' || echo '❌ MongoDB is not ready'",
+    "mongo": "docker exec -it cursor-workshop-mongodb mongosh -u root -p example"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

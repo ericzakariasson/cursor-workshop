@@ -2,28 +2,49 @@
 
 ## Introduction
 
-In this workshop we'll walk through cursor, it's features and how you can levarage it to become more productive.
+In this workshop we'll walk through cursor, it's features and how you can leverage it to become more productive.
 
 To demonstrate, we'll be building a simple web app using
 
 - Next.js + ShadCN (and why components are so powerful with Cursor)
 - Postgres
+- MongoDB
 
 ## What's in this repo?
 
 - `prompts/`: shared and version controlled prompts that can be used for your team
 - `.cursorrules`: specific Cursor instructions
-- `sql/`: small sql scripts for seting up everything related to postgres
+- `sql/`: small sql scripts for setting up everything related to postgres
 
 ## Setup
 
 1. Install docker: Easiest setup is Docker Desktop or OrbStack (my personal preference)
 2. Install cursor: https://www.cursor.com/ or `brew install --cask cursor`
 3. Install dependencies with `pnpm install` (or remove lockfile and install with npm/yarn/bun)
-4. Start the postgres docker container with `pnpm db:up` and make sure it's running
-5. Start the Next.js app with `pnpm dev`
+4. Start the postgres docker container with `pnpm pg:up` and make sure it's running
+5. Start the MongoDB docker container with `pnpm mongo:up` and make sure it's running
+6. Start the Next.js app with `pnpm dev`
 
 Now, we're ready to start prompting our app.
+
+## Database Management
+
+### PostgreSQL
+
+- Start PostgreSQL: `pnpm pg:up`
+- Stop PostgreSQL: `pnpm pg:down`
+- Reset PostgreSQL: `pnpm pg:reset`
+- Check PostgreSQL status: `pnpm pg:ping`
+- Open PostgreSQL shell: `pnpm psql`
+- Run SQL tables script: `pnpm pg:tables`
+
+### MongoDB
+
+- Start MongoDB: `pnpm mongo:up`
+- Stop MongoDB: `pnpm mongo:down`
+- Reset MongoDB: `pnpm mongo:reset`
+- Check MongoDB status: `pnpm mongo:ping`
+- Open MongoDB shell: `pnpm mongo`
 
 ## Other tools
 
