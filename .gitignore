@@ -48,3 +48,8 @@ ipython_config.py
 
 .venv/
 .env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

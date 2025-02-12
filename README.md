@@ -2,13 +2,7 @@
 
 ## Introduction
 
-In this workshop we'll walk through cursor, it's features and how you can leverage it to become more productive.
-
-To demonstrate, we'll be building a simple web app using
-
-- Next.js + ShadCN (and why components are so powerful with Cursor)
-- Postgres
-- MongoDB
+Learn to build a web app with Cursor using Next.js, ShadCN, Postgres and MongoDB while exploring Cursor's productivity features.
 
 ## What's in this repo?
 
