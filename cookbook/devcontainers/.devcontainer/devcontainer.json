@@ -1,0 +1,12 @@
+{
+  "name": "Cursor Python Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-python.black-formatter"]
+    }
+  },
+  "remoteUser": "vscode"
+}

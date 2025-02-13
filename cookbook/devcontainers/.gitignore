@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Node
+node_modules/
+.next/
+dist/
+
+# C++
+build/
+*.o
+*.out
+
+# Dev containers
+.devcontainer/.env 

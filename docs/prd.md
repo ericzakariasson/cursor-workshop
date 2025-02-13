@@ -8,10 +8,10 @@ Command-line calculator application for basic arithmetic operations.
 
 ### Core Functions
 
-- Addition, subtraction, multiplication, division
-- Clear command (c)
-- Decimal point support
-- Negative numbers
+- Basic arithmetic (+,-,\*,/)
+- Clear (c)
+- Decimals
+- Negatives
 
 ### UI/UX
 
@@ -31,9 +31,3 @@ Command-line calculator application for basic arithmetic operations.
 - Correct calculations
 - Error-free operation
 - Response time < 100ms
-
-## Timeline
-
-- Development: 1 week
-- Testing: 2 days
-- Release: 3 days
