@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+packages/
+TestResults/
+*.dll
+*.pdb
+*.log
+appsettings.*.json
+!appsettings.example.json 
