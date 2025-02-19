@@ -1,4 +1,4 @@
-# Cursor Workshop
+# Cursor Demo
 
 ## Introduction
 
