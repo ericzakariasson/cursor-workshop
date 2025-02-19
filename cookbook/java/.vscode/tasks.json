@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Maven Test",
+      "type": "shell",
+      "command": "./mvnw",
+      "args": [
+        "test"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/maven"
+      },
+      "problemMatcher": [
+        "$maven"
+      ]
+    },
+    {
+      "label": "Maven Clean Test",
+      "type": "shell",
+      "command": "./mvnw",
+      "args": [
+        "clean",
+        "test"
+      ],
+      "group": "test",
+      "options": {
+        "cwd": "${workspaceFolder}/maven"
+      },
+      "problemMatcher": [
+        "$maven"
+      ]
+    }
+  ]
+}

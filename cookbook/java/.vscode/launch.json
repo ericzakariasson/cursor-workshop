@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Spring Boot App",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "maven"
+        },
+        {
+            "type": "java",
+            "name": "Debug Tests",
+            "request": "launch",
+            "mainClass": "",
+            "args": "",
+            "vmArgs": "-ea",
+            "projectName": "maven"
+        }
+    ]
+}

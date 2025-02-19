@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    // Java Extension Pack (includes core Java extensions)
+    "vscjava.vscode-java-pack",
+    // Spring Boot Extension Pack
+    "vmware.vscode-spring-boot-pack",
+  ]
+}
