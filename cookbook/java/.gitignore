@@ -1,10 +1,21 @@
 HELP.md
+
+### Maven ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+### IDE - STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -12,3 +23,22 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
+### IDE - IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### IDE - VS Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Misc ###
+*.log
+.DS_Store
+bin/
