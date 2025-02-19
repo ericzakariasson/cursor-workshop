@@ -1,6 +1,6 @@
 ---
 description: Python general rules
-globs: /service-1/**/*.*
+globs: **/*.py
 ---
 - Always use UV when installing depdendencies
 - Always use python 3.12
