@@ -8,16 +8,6 @@ import boto3
 from botocore.exceptions import ClientError
 
 app = FastAPI(title="FastAPI Server", version="1.0.0")
-
-class AddRequest(BaseModel):
-    a: float
-    b: float
-
-class Calculator:
-    @staticmethod
-    def add(a: float, b: float) -> float:
-        return a + b
-
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
@@ -31,13 +21,6 @@ app.add_middleware(
 async def health_check() -> Dict[str, str]:
     """Health check endpoint"""
     return {"status": "healthy"}
-
-@app.post("/add")
-async def add_numbers(request: AddRequest) -> Dict[str, float]:
-    """Add two numbers"""
-    calculator = Calculator()
-    result = calculator.add(request.a, request.b)
-    return {"result": result}
 
 if __name__ == "__main__":
     import uvicorn
